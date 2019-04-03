@@ -1,0 +1,132 @@
+/* your styles go here */
+body{
+    margin: 0 !important;
+    padding: 0 !important;   
+    font-family: 'Lato', sans-serif !important; 
+	
+}
+img{
+    cursor: pointer;
+    transition: 0.3s;
+}
+img:hover{
+    opacity: 0.7;
+}   
+.btn:focus,.btn:active,input.input-material:active,input.input-material:focus,form-control.is-invalid:focus,form-control.is-invalid:active
+{
+	-webkit-appearance:none;
+	box-shadow: none;
+	/*border:none !important;*/
+    outline:none !important;  
+    box-shadow: none !important;  
+}
+.input-group .form-control {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+.btn{
+	padding: 5px 20px !important;
+	border-radius:0.15rem;
+	-webkit-transition: transform .2s linear,-webkit-box-shadow .2s linear!important;
+    -moz-transition: transform .2s linear,-moz-box-shadow .2s linear!important;
+    transition: transform .2s linear,box-shadow .2s linear!important;
+}
+.btn:hover{
+	transform: translateY(-3px);
+}
+.btn{
+	box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+.my-pagination>a,.my-pagination>strong{
+    padding: 0.2em 0.6em;
+    border:1px solid #e7e7e7;
+}
+.my-pagination>strong{
+    background: #33b35a;
+    color: #fff;
+    padding: 0.4em 0.6rem;
+}
+.input-custom-select{
+border-radius: .25rem 0 0 .25rem;
+}
+.input-group-append>.btn{
+    height: calc(2.25rem + 2px);
+    border-radius: 0 0.15rem 0.15rem 0;
+    box-shadow: none;
+}
+.input-group-append>.btn:hover
+{
+    transform: none;
+}
+.m-1 {
+     margin: 0 auto; 
+}
+.photo-gallary{
+    max-height: 300px;
+    max-width: 300px;
+}
+/*custom for display*/     
+.user-info
+{font-size:12px; 
+} 
+.white-space 
+{
+	background-color:white!important;
+}
+.right-box
+{
+    height:800px;
+}
+.event_box{
+    height: 40px !important;
+    overflow: auto;
+}
+.attanding_modal_window{
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10;
+}
+.attanding_modal_window:target{
+    display: block;
+}
+.attanding_modal_window>div{
+    background: #fefefe;
+  border: #333 solid 1px;
+  border-radius: 5px;
+  margin-left: -200px;
+  margin : 10% auto;
+  z-index: 11;
+  width: 80%;
+  max-height: 80%;
+  overflow: auto;
+  padding: 1em;
+}
+.attanding_modal_close{
+    margin-right: 11%;
+    position: absolute;
+    right: 0;
+}
+footer.main-footer{
+  position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999; 
+  }
+.contact-msg{
+  text-align: justify;
+  font-size: 12px;
+}
+
+.sent-status{
+  font-size: 14px;
+  font-weight: 600;
+}
+.sent-date-time{
+  font-size: 14px;
+  font-weight: 600;
+}

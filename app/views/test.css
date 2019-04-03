@@ -1,0 +1,102 @@
+<style>
+#air-player .gallery-item{
+width:32%;display:inline-block;
+cursor: pointer;
+margin: 0;
+}
+#bottom-air-player{
+  position: fixed;
+  bottom:-4.5rem;
+  width: 100%;
+  z-index: 12000;
+  height: 6em;
+  overflow: hidden;
+  transition:1s ease-in-out;
+  /*background: transparent;*/
+}
+
+#bottom-air-player>iframe{
+  width: 100% !important;
+	box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.19), 0 2px 5px 0 rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  background:transparent !important;
+}
+#bottom-air-player-close{
+	/* position: absolute;
+    bottom: 3.2rem;
+    right: 1.2rem; */   
+    margin-left: 0.2em;
+    width: 2rem;
+    color:#fff;  
+    padding: 0rem 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+}
+</style>
+<script>
+jQuery(document).ready(function( $ ){
+  $('#air-player .gallery-item .gallery-icon img').click(function(){  
+    var img = $(this).attr('src');  
+    var url = 'http://webgali.com/work/air/html5-player/index.php?radio='+ $(this).attr('data-cannel')+'&img='+img;    
+    $('#music_cover').attr('src',img);
+    $('#html_player').attr('src',url);
+    $('#bottom-air-player').css('bottom','0');
+  });
+  $('#bottom-air-player-close').click(function(){
+  	$('#bottom-air-player').css('bottom','-4.5rem');
+  });
+});
+</script>
+<div id="air-player" class="gallery galleryid-9176 gallery-columns-3 gallery-size-thumbnail" style="text-align: left !important;">
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="assamase" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-assamese-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-assamese-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-assamese-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-assamese.jpg 512w" alt="" width="150" height="150" aria-describedby="gallery-1-9744" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="bangla" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-bangla-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-bangla-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-bangla-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-bangla.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="kannada" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-kannada-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-kannada-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-kannada-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-kannada.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="gujarati" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-gujarati-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-gujarati-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-gujarati-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-gujarati.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="marathi" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-marathi-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-marathi-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-marathi-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-marathi.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="odia" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-odia-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-odia-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-odia-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-odia.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="punjabi" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-punjabi-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-punjabi-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-punjabi-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-punjabi.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="telugu" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-telugu-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-telugu-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-telugu-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-telugu.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="urdu" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/air-urdu-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/air-urdu-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-urdu-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/air-urdu.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="gold" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/fm-gold-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/fm-gold-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/fm-gold-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/fm-gold.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="rainbow" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/fm-rainbow-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/fm-rainbow-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/fm-rainbow-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/fm-rainbow.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="malayalam" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/malayalam-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/malayalam-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/malayalam-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/malayalam.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="north-east" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/north-eastern-service-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/north-eastern-service-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/north-eastern-service-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/north-eastern-service.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="kashmir" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/radio-kashmir-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/radio-kashmir-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/radio-kashmir-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/radio-kashmir.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="raagam" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/raagam-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/raagam-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/raagam-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/raagam.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="tamil" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/tamil-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/tamil-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/tamil-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/tamil.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+<dl class="gallery-item">
+ 	<dt class="gallery-icon landscape"><img data-cannel="vividh-bharti" class="attachment-thumbnail size-thumbnail" src="http://webgali.com/work/air/wp-content/uploads/2018/06/vividh-bharati-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="http://webgali.com/work/air/wp-content/uploads/2018/06/vividh-bharati-150x150.jpg 150w, http://webgali.com/work/air/wp-content/uploads/2018/06/vividh-bharati-300x300.jpg 300w, http://webgali.com/work/air/wp-content/uploads/2018/06/vividh-bharati.jpg 512w" alt="" width="150" height="150" /></dt>
+</dl>
+</div>

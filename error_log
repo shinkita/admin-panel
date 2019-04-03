@@ -1,0 +1,104 @@
+[10-Jun-2018 10:08:34 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ']' in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 118
+[10-Jun-2018 10:09:24 America/Los_Angeles] PHP Fatal error:  Call to a member function prepare() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 116
+[10-Jun-2018 10:09:54 America/Los_Angeles] PHP Fatal error:  Call to a member function prepare() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 116
+[10-Jun-2018 19:21:54 America/Los_Angeles] PHP Fatal error:  Call to a member function prepare() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 116
+[10-Jun-2018 19:22:09 America/Los_Angeles] PHP Fatal error:  Call to a member function prepare() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 116
+[10-Jun-2018 19:22:22 America/Los_Angeles] PHP Fatal error:  Call to a member function prepare() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 116
+[11-Jun-2018 18:22:59 America/Los_Angeles] PHP Fatal error:  Call to a member function prepare() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 116
+[11-Jun-2018 18:43:56 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$dob' (T_VARIABLE) in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 127
+[11-Jun-2018 18:44:34 America/Los_Angeles] PHP Fatal error:  Call to undefined function string() in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 127
+[11-Jun-2018 18:47:44 America/Los_Angeles] PHP Fatal error:  Call to undefined function string() in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 127
+[11-Jun-2018 20:07:24 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 138
+[11-Jun-2018 20:23:57 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 208
+[13-Jun-2018 12:32:44 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 31
+[13-Jun-2018 12:33:17 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 31
+[14-Jun-2018 04:07:57 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 51
+[14-Jun-2018 04:08:53 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 51
+[14-Jun-2018 04:09:17 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 51
+[14-Jun-2018 04:10:00 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 51
+[14-Jun-2018 04:15:02 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 49
+[14-Jun-2018 04:16:48 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 49
+[14-Jun-2018 04:19:47 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 49
+[15-Jun-2018 00:09:50 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 49
+[15-Jun-2018 00:14:42 America/Los_Angeles] PHP Fatal error:  Cannot use object of type Admin as array in /home/vsadmin/public_html/new_admin/app/controllers/Setting.php on line 49
+[20-Jun-2018 08:42:06 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$v' (T_VARIABLE) in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 75
+[21-Jun-2018 10:53:03 America/Los_Angeles] PHP Fatal error:  Call to a member function update_query() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 286
+[21-Jun-2018 10:53:45 America/Los_Angeles] PHP Fatal error:  Call to a member function update_query() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 286
+[29-Jun-2018 08:59:28 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-profile-images.php on line 123
+[29-Jun-2018 09:02:04 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-profile-images.php on line 123
+[29-Jun-2018 09:02:18 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-profile-images.php on line 123
+[29-Jun-2018 09:04:27 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-profile-images.php on line 123
+[29-Jun-2018 09:05:41 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-profile-images.php on line 123
+[02-Jul-2018 20:58:03 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$ownership' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 73
+[02-Jul-2018 20:58:07 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$ownership' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 73
+[02-Jul-2018 20:58:36 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '12' (T_LNUMBER), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 72
+[02-Jul-2018 20:58:58 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$ownership' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 73
+[02-Jul-2018 20:59:25 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$ownership' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 73
+[02-Jul-2018 20:59:31 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$ownership' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 73
+[02-Jul-2018 21:12:26 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$ownership' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 73
+[09-Jul-2018 21:15:56 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vsadmin/public_html/new_admin/app/views/user-profile.php on line 162
+[09-Jul-2018 21:17:43 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile.php on line 162
+[20-Jul-2018 23:08:45 America/Los_Angeles] PHP Fatal error:  Call to undefined function home_url() in /home/vsadmin/public_html/new_admin/app/views/user-events.php on line 97
+[20-Jul-2018 23:09:11 America/Los_Angeles] PHP Fatal error:  Call to undefined function home_url() in /home/vsadmin/public_html/new_admin/app/views/user-events.php on line 97
+[20-Jul-2018 23:09:29 America/Los_Angeles] PHP Fatal error:  Call to undefined function home_url() in /home/vsadmin/public_html/new_admin/app/views/user-events.php on line 97
+[20-Jul-2018 23:09:39 America/Los_Angeles] PHP Fatal error:  Call to undefined function home_url() in /home/vsadmin/public_html/new_admin/app/views/user-events.php on line 97
+[20-Jul-2018 23:09:39 America/Los_Angeles] PHP Fatal error:  Call to undefined function home_url() in /home/vsadmin/public_html/new_admin/app/views/user-events.php on line 97
+[22-Jul-2018 11:03:06 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:03:38 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:03:40 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:03:45 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:05:22 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:05:28 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:06:47 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:06:55 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:08:18 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 52
+[22-Jul-2018 11:14:11 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$event_date' (T_VARIABLE) in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 53
+[23-Jul-2018 20:44:36 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'red' (T_STRING) in /home/vsadmin/public_html/new_admin/app/views/user-events.php on line 67
+[25-Jul-2018 00:04:01 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 103
+[25-Jul-2018 00:06:02 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '<' in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 21
+[25-Jul-2018 00:06:07 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '<' in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 21
+[25-Jul-2018 00:06:40 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 103
+[25-Jul-2018 00:07:27 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 103
+[25-Jul-2018 00:07:32 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 103
+[25-Jul-2018 00:08:49 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 103
+[25-Jul-2018 00:09:01 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 103
+[25-Jul-2018 00:09:06 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 103
+[25-Jul-2018 00:09:12 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 103
+[25-Jul-2018 00:10:05 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 104
+[25-Jul-2018 00:12:06 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 104
+[25-Jul-2018 00:13:02 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 107
+[25-Jul-2018 00:22:43 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 44
+[25-Jul-2018 02:46:57 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$event_date' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 67
+[25-Jul-2018 02:52:02 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$event_date' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 67
+[25-Jul-2018 02:52:38 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$event_date' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 67
+[25-Jul-2018 02:53:40 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$event_date' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 68
+[25-Jul-2018 02:53:49 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$event_date' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 68
+[25-Jul-2018 02:54:01 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$event_date' (T_VARIABLE), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 68
+[25-Jul-2018 04:10:13 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '.' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 77
+[25-Jul-2018 04:26:04 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 47
+[25-Jul-2018 04:26:48 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 47
+[25-Jul-2018 04:29:52 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 56
+[25-Jul-2018 04:30:13 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 56
+[25-Jul-2018 04:31:22 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '*' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 67
+[29-Jul-2018 20:13:43 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '/' in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 44
+[29-Jul-2018 20:15:13 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '/' in /home/vsadmin/public_html/new_admin/app/views/user-friends.php on line 44
+[18-Aug-2018 02:08:32 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_row() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 494
+[18-Aug-2018 02:08:53 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_row() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 494
+[18-Aug-2018 02:09:21 America/Los_Angeles] PHP Fatal error:  Call to undefined function home_url() in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 507
+[18-Aug-2018 02:09:26 America/Los_Angeles] PHP Fatal error:  Call to undefined function home_url() in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 507
+[18-Aug-2018 02:29:24 America/Los_Angeles] PHP Fatal error:  Call to a member function insert() on null in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 503
+[18-Aug-2018 02:31:54 America/Los_Angeles] PHP Fatal error:  Cannot use object of type stdClass as array in /home/vsadmin/public_html/new_admin/app/controllers/Users.php on line 502
+[18-Aug-2018 02:37:47 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/vsadmin/public_html/new_admin/app/views/user-images.php on line 79
+[19-Aug-2018 10:31:16 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '.' in /home/vsadmin/public_html/new_admin/app/views/user-profile.php on line 414
+[19-Aug-2018 10:31:39 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'days' (T_STRING), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile.php on line 414
+[19-Aug-2018 10:31:45 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'days' (T_STRING), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile.php on line 414
+[26-Oct-2018 23:19:14 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/vsadmin/public_html/new_admin/app/views/user-faq.php on line 66
+[26-Oct-2018 23:20:34 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/vsadmin/public_html/new_admin/app/views/user-faq.php on line 66
+[05-Nov-2018 06:12:16 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 102
+[05-Nov-2018 06:12:37 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 102
+[22-Feb-2019 21:30:07 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/vsadmin/public_html/new_admin/app/views/business-detail.php on line 74
+[22-Feb-2019 21:30:27 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/vsadmin/public_html/new_admin/app/views/business-detail.php on line 74
+[22-Feb-2019 21:31:41 America/Los_Angeles] PHP Fatal error:  Function name must be a string in /home/vsadmin/public_html/new_admin/app/views/business-detail.php on line 76
+[24-Feb-2019 21:51:06 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/vsadmin/public_html/new_admin/app/views/business-detail.php on line 86
+[28-Mar-2019 04:40:47 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'name' (T_STRING), expecting ',' or ';' in /home/vsadmin/public_html/new_admin/app/views/user-profile-images.php on line 87
+[29-Mar-2019 04:11:53 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vsadmin/public_html/new_admin/app/views/user-profile-events.php on line 101
